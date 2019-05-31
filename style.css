@@ -29,8 +29,9 @@ a{
     display: none;
 }
 @media (pointer:none), (pointer:coarse) {
-    .player__controls{
-        width: 100%;
-        display: none;
+    .title{
+        display: block;
+        text-align: center;
+        color: white;
     }
 }
