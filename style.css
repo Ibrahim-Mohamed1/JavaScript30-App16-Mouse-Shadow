@@ -28,3 +28,9 @@ a{
 .title{
     display: none;
 }
+@media (pointer:none), (pointer:coarse) {
+    .player__controls{
+        width: 100%;
+        display: none;
+    }
+}
